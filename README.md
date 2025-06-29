@@ -46,20 +46,20 @@ A modern, robust BLE Scanner app built with Flutter and [`flutter_reactive_ble`]
 ## 📚 Project Structure
 lib/
 ├── screens/
-│   ├── home_screen.dart       # Main BLE scanning and device list
+│   ├── home_screen.dart           # Main BLE scanning and device list
 │   ├── device_detail_screen.dart  # Device services and RSSI graph
-│   └── about_screen.dart      # Developer info, CV, contact
+│   └── about_screen.dart          # Developer info, CV, contact
 ├── custom/
-│   ├── device_tile.dart       # Custom widget showing device info & RSSI bars
-│   └── rssi_chart.dart        # RSSI spline area chart widget
+│   ├── device_tile.dart           # Custom widget showing device info & RSSI bars
+│   └── rssi_chart.dart            # RSSI spline area chart widget
 ├── services/
-│   └── company_ids.dart       # Loads and provides company ID → name mapping
+│   └── company_ids.dart           # Loads and provides company ID → name mapping
 ├── constants/
-│   └── app_constants.dart     # App-wide constants like scan timeout, chart interval
+│   └── app_constants.dart         # App-wide constants like scan timeout, chart interval
 ├── model/
-│   └── rssi_data_point.dart   # Data model for RSSI time series
+│   └── rssi_data_point.dart       # Data model for RSSI time series
 └── theme/
-    └── text_styles.dart       # Centralized text styling
+    └── text_styles.dart           # Centralized text styling
 
 ---
 
