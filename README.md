@@ -24,7 +24,7 @@ A modern, robust BLE Scanner app built with Flutter and [`flutter_reactive_ble`]
   - Red for weak signals
 
 - **Manufacturer Data Parsing**
-  Advertising packets are parsed to extract the Bluetooth Company Identifier (CID). This CID is mapped to a company name using a JSON file derived from the official Bluetooth SIG YAML file ([Bluetooth SIG Assigned Numbers](https://github.com/NordicSemiconductor/bluetooth-numbers-database/blob/main/company_ids.yaml)), allowing the app to display meaningful manufacturer information alongside raw payload data.
+  Advertising packets are parsed to extract the Bluetooth Company Identifier (CID). This CID is mapped to a company name using a JSON file derived from the official Bluetooth SIG YAML file ([Bluetooth SIG Assigned Numbers](https://bitbucket.org/bluetooth-SIG/public/src/main/assigned_numbers/company_identifiers/company_identifiers.yaml)), allowing the app to display meaningful manufacturer information alongside raw payload data.
 
 - **Live RSSI Graph**
   The `DeviceDetailScreen` continuously plots the RSSI values of the selected device on a smooth spline area chart that scrolls over a 10-second window, providing real-time visual feedback of signal strength.
